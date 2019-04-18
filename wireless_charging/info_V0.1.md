@@ -19,7 +19,7 @@
 ### 初步方案
 
 
-```
+```mermaid
 graph LR
 rectifier1[AC-DC整流]
 input[220VAC,50Hz]
@@ -43,8 +43,8 @@ regulated-->output
 
 ### 主级AD-DC整流
 
--a single phase full wave diode bridge rectifier（ECE）加电容滤波，计算参考书上
-![AC-DC_cal](https://upload.cc/i1/2019/04/16/iKyC6g.png)
+- a single phase full wave diode bridge rectifier（ECE）加电容滤波，计算参考书上
+<div><img width=200 height=150 src="https://upload.cc/i1/2019/04/16/iKyC6g.png"/></div>
 
 #### 控制器方案
 
